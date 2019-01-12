@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements ViewClass {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Github code
+        //Github codes
         //link the model logics
         thumbnailVideoUrl = new LogicalModel(this);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
